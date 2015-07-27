@@ -2002,7 +2002,7 @@ Info Boxes
 }
 
 .info-content {
-    float: left;
+    /* float: left; */
 }
 
 /*info-box-2*/
