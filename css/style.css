@@ -3423,9 +3423,12 @@ html {
     border-top:none;
 }
 .st-accordion ul li > a{
-    font-family: 'Josefin Slab',Georgia, serif;
+    font-family: Georgia, "Times New Roman", 
+             "Microsoft YaHei", "微软雅黑", 
+             STXihei, "华文细黑", 
+             serif;
     text-shadow: 1px 1px 1px #fff;
-    font-size: 46px;
+    font-size: 35px;
     display: block;
 	position: relative;
     line-height: 100px;
@@ -3490,3 +3493,7 @@ html {
 	}
 }
 
+.media .media-body .media-heading{
+    background:url(../img/kidsplace_ico.jpg) left center no-repeat;
+    padding-left:30px;
+}
