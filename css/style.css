@@ -2,7 +2,7 @@
 /* Common /* 
 ============================================================== */
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
-    max-width: 940px;
+    max-width: 1040px;
 }
 
 body.boxed {
@@ -19,7 +19,7 @@ body.boxed div.body {
     background-color: #FFFFFF;
     margin: 0px auto;
     max-width: 100%;
-    width: 1040px;
+    width: 1440px;
     font-family: "微软雅黑", 'open_sansregular';
     font-size: 13px;
     color: #888;
@@ -98,6 +98,10 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     color: #303030;
     font-weight: 200;
+}
+
+p {
+    font-size: 14px;
 }
 
 li {
@@ -292,7 +296,7 @@ header {
 }
 
 .navbar-inner {
-    background: #222;
+    background: #06a;
     min-height: 50px;
     border: 0;
     padding-left: 0;
@@ -310,8 +314,8 @@ header {
 
 .navbar .divider-vertical {
     height: 50px;
-    border-left: 1px solid #444;
-    border-right: 1px solid #000;
+    border-left: 1px solid #06a;
+    border-right: 1px solid #06a;
     margin: 0;
 }
 
@@ -399,7 +403,7 @@ ul {
 }
 
 #search input {
-    background: #222;
+    background: #06a;
     border: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -448,7 +452,7 @@ ul {
 
 .dropdown-menu {
     border: 0px;
-    background-color: #222;
+    background-color: #06a;
 }
 
 .navbar .nav > li > .dropdown-menu:before {
@@ -644,7 +648,7 @@ ul.footermenu li a:hover, .footer a:hover {
 .footerbottom {
     color: #fff;
     line-height: 2.0;
-    background: #333;
+    background: #06a;
     border-top: 1px solid #444;
 }
 
@@ -684,7 +688,7 @@ ul.footermenu li a {
 }
 
 .footerdark {
-    background: #222;
+    background: #06a;
     color: #ccc;
     margin-top: 65px;
     line-height: 1.6;
@@ -3496,4 +3500,8 @@ html {
 .media .media-body .media-heading{
     background:url(../img/kidsplace_ico.jpg) left center no-repeat;
     padding-left:30px;
+}
+
+#really-cool-video{
+    margin: 0 auto;
 }
