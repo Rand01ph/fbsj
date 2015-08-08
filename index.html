@@ -267,7 +267,7 @@
                                 </div>
 
                                 <p>
-国内首创大型儿童运动主题乐园，森林主题、走近自然；快乐游戏、健康成长；早教指导、亲子平台，带给小朋友前所未有的新奇体验。
+                                国内首创大型儿童运动主题乐园，森林主题、走近自然；快乐游戏、健康成长；早教指导、亲子平台，带给小朋友前所未有的新奇体验。
                                 </p>
 
                             </article>
@@ -287,13 +287,13 @@
                                 </div>
 
                                 <p>
-冰河世纪主题水吧、角色体验馆、亲子阅读馆，多项体验让宝贝们置身快乐的成长天地。
+                                冰河世纪主题水吧、角色体验馆、亲子阅读馆，多项体验让宝贝们置身快乐的成长天地。
                                 </p>
 
                             </article>
 
                         </div>
-                        </div>
+                    </div>
                     <div class="break"></div>
                     <div class="row-fluid recent-posts">
                         <div class="span6">
@@ -311,7 +311,7 @@
                                 </div>
 
                                 <p>
-联合国际一流儿童心理学科研团队，为家长提供育儿指导；融合早教课程、培训课程、亲子课程等，乐高机器人、器乐、舞蹈、跆拳道、美术、国学等多项项目，为宝宝和家长带来多重选择体验。
+                                联合国际一流儿童心理学科研团队，为家长提供育儿指导；融合早教课程、培训课程、亲子课程等，乐高机器人、器乐、舞蹈、跆拳道、美术、国学等多项项目，为宝宝和家长带来多重选择体验。
                                 </p>
 
                             </article>
@@ -347,39 +347,34 @@
                     <!-- 联系我们开始===================================== -->
                     <div class="row-fluid top30">
 
-                        <div class="span12">
+                        <div class="span6">
+                            <div style="text-align: center">
+                                <h4 class="text-left">精彩视频</h4>
+                                <img id="test1" src="http://r4.ykimg.com/054104085575032A6A0A4D04BC1BD399" replace="false" alt="凡比世界六一活动剪影" title="凡比世界六一活动剪影" />
+                            </div>
+                        </div>
+
+
+                        <div class="span6">
 
                             <div class="info-box shadow-large bottom0">
 
                                 <div class="info-box-inner">
 
                                     <div class="info-content">
-
+                                        <br />
                                         <h2 class="text-center">凡比世界</h2>
+                                        <br />
                                         <h3 class="text-center">FUN BABY</h3>
-
+                                        <br />
                                         <h4 class="text-center">
-                                        让孩子开心 让家长放心
+                                            让孩子开心 让家长放心
                                         </h4>
-
+                                        <br />
                                     </div>
 
 
-                                    <div class="clearfix">
-
-                                    </div>
-                                    <br/>
-                                    <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                                                                  preload="auto" width="640" height="480" poster="really-cool-video-poster.jpg"
-                                                                                                          data-setup='{}'>
-                                        <source src="./img/fanbi.mp4" type='video/mp4'>
-                                        <p class="vjs-no-js">
-                                        To view this video please enable JavaScript, and consider upgrading to a web browser
-                                        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                                        </p>
-                                    </video>
                                 </div>
-
                             </div>
 
                         </div>
@@ -505,6 +500,7 @@
 
             <script src="js/custom.js"></script>
 
+            <script src="js/layer/layer.js"></script>
             <!-- CALL CAMERA SLIDER -->
 
             <script>
@@ -642,6 +638,23 @@
 
                     });
 
+                });
+
+            </script>
+
+
+            <script>
+
+                $('#test1').on('click', function(){
+                    layer.open({
+                        type: 2,
+                        title: false,
+                        area: ['630px', '360px'],
+                        shade: 0.8,
+                        closeBtn: false,
+                        shadeClose: true,
+                        content: 'http://player.youku.com/embed/XMTI1NzQ5MTc4OA=='
+                    });
                 });
 
             </script>
