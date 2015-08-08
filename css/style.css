@@ -3505,3 +3505,26 @@ html {
 #really-cool-video{
     margin: 0 auto;
 }
+
+
+.kidsplace_index_banner01{background:url(../img/kidsplace_banner01.jpg) no-repeat left top; height:349px; position:relative;}
+.kidsplace_index_banner02{background:url(../img/kidsplace_banner02.jpg) no-repeat left top; height:364px;}
+.kidsplace_index_banner03{background:url(../img/kidsplace_banner03.jpg) no-repeat left top; height:366px;}
+.kidsplace_index_banner04{background:url(../img/kidsplace_banner04.jpg) no-repeat left top; height:256px;}
+.kidsplace_index_banner05{background:url(../img/kidsplace_banner05.jpg) no-repeat left top; height:468px;}
+.kidsplace_index_banner06{background:url(../img/kidsplace_banner06.jpg) no-repeat left top; height:367px;}
+.kidsplace_index_banner_c{width:302px; height:302px; position:absolute; left:325px; top:210px; z-index:7;}
+.kidsplace_index_an01{width: 238px;height: 238px;position: absolute;left: 140px;top: 128px; z-index:11; cursor:pointer;border-radius:119px;}
+.kidsplace_index_an02{width: 238px;height: 238px;position: absolute;left: 357px;top: 28px; z-index:12; cursor:pointer;border-radius:119px;}
+.kidsplace_index_an03{width: 238px;height: 238px;position: absolute;left: 579px;top: 129px; z-index:13; cursor:pointer;border-radius:119px;}
+.kidsplace_index_an04{width: 238px;height: 238px;position: absolute;left: 580px;top: 353px; z-index:14; cursor:pointer;border-radius:119px;}
+.kidsplace_index_an05{width: 238px;height: 238px;position: absolute;left: 353px;top: 451px; z-index:15; cursor:pointer;border-radius:119px;}
+.kidsplace_index_an06{width: 238px;height: 238px;position: absolute;left: 138px;top: 353px; z-index:16; cursor:pointer;border-radius:119px;}
+.kidsplace_index_zi{width:302px; height:302px; position:absolute; left:325px; top:210px; z-index:8; background:url(../img/kidsplace_banner_c2.png) no-repeat left top;display:none;}
+.kidsplace_index_zi .kidsplace_index_zi_nei{padding:60px 50px; line-height:22px;}
+.kidsplace_index_zi .kidsplace_index_zi_nei div{display:none; color:#9b6e11;}
+.kidsplace_index_zi .kidsplace_index_zi_nei div strong{font-size:16px; display:block; font-weight:bolder; text-align:center;}
+.kidsplace_index_zi .kidsplace_index_zi_nei div span{ display:block; font-weight:bolder; text-align:center;}
+.kidsplace_banner_an{padding:128px 0 0 821px;}
+.kidsplace_nei{width:562px; margin:0 auto; color:#FFF; font-size:14px; line-height:28px;}
+.kidsplace_nei .title{text-align:center; font-size:20px; font-weight:bold;}
